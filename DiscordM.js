@@ -27,13 +27,9 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                     const msgs = JSON.parse(body);
 		let count = 0;
                     for (let i = 0; i < mnum; i++) {
-                        //console.log(`${msgs[i].author.username}: ${msgs[i].content}`);
 			   if (prevmsgs.length != 0){
-			//console.log(`${msgs[i].id} : ${prevmsgs[i].id}`);
 			   }
 			if (prevmsgs.length != 0 && msgs[i].id != prevmsgs[count].id) {
-				//console.log(`${!prevmsgs.length}`);
-				//console.log(`${msgs[i].id} : ${prevmsgs[count].id}`);
 				const embeds = JSON.stringify(msgs[i].embeds);
                             const payload = JSON.stringify({ content: `${msgs[i].author.username}: ${msgs[i].content}`,
 			    					embeds: msgs[i].embeds,
