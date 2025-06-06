@@ -1,0 +1,23 @@
+{
+  "name": "discordmir",
+  "version": "1.0.0",
+  "description": "Discord Mirroring Bot",
+  "main": "DiscordM.js",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node DiscordM.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylan-Granger/DiscordMirror.git"
+  },
+  "author": "Dylan Granger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylan-Granger/DiscordMirror/issues"
+  },
+  "homepage": "https://github.com/Dylan-Granger/DiscordMirror#readme"
+}
